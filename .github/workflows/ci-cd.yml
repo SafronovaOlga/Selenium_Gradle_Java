@@ -30,13 +30,13 @@ jobs:
       - name: Run tests with Gradle
         run: ./gradlew test
 
-              # Шаг 5: Сборка проекта
+             
       - name: Build with Gradle
         run: ./gradlew build
 
-              # Шаг 6: Публикация артефактов
+             
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
            name: build-artifacts
            path: build/libs/
