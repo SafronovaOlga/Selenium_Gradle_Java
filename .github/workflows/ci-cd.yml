@@ -11,14 +11,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Шаг 1: Проверка кода
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Шаг 2: Установка JDK
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin'
 
+      # Шаг 3: Кэширование Gradle
+      - name: Cache Gradle packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/caches
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: |
+            gradle-${{ runner.os }}-
+
+      # Шаг 4: Запуск тестов
       - name: Run tests with Gradle
         run: ./gradlew test
+
+      # Шаг 5: Сборка проекта
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      # Шаг 6: Публикация артефактов
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: build/libs/
