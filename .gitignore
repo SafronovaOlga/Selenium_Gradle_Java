@@ -1,4 +1,5 @@
 .gradle
+.gradle/init.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
