@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12af2e8-e775-4f41-9ab4-5c86d23e246f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/uitests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CookiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumWaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/safronova/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/safronova/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Selenium_Gradle_Java" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Selenium_Gradle_Java" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Selenium_Gradle_Java" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,14 +85,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CookiesTest.getCookiesTest.executor": "Run",
     "Gradle.HomePageTest.executor": "Run",
     "Gradle.HomePageTest.findH1WebFormTest.executor": "Run",
     "Gradle.HomePageTest.openHomePageTest.executor": "Run",
     "Gradle.HomePageTest.openWebFormTest.executor": "Run",
+    "Gradle.IFrameTest.getIFrameDefaultContentTest.executor": "Run",
+    "Gradle.IFrameTest.getIFrameNameTest.executor": "Run",
+    "Gradle.IFrameTest.getIFrameTest.executor": "Run",
+    "Gradle.LocatorsTest.findTitleTest.executor": "Run",
+    "Gradle.MockListTest.testMockList.executor": "Run",
+    "Gradle.ParameterizedListTest.testListSize.executor": "Run",
+    "Gradle.SeleniumDriverTest.getChromeTest.executor": "Run",
+    "Gradle.SeleniumWaitTest.loadingImagesExplicitWaitTest.executor": "Run",
+    "Gradle.SeleniumWaitTest.loadingImagesFluentWaitTest.executor": "Run",
+    "Gradle.SeleniumWaitTest.loadingImagesImplicitWaitTest.executor": "Run",
+    "Gradle.SeleniumWaitTest.loadingImagesTest.executor": "Run",
     "Gradle.Selenium_Gradle_Java [:safronova.Main.main()].executor": "Run",
+    "Gradle.Selenium_Gradle_Java [buildEnvironment].executor": "Run",
+    "Gradle.Selenium_Gradle_Java [build].executor": "Run",
+    "Gradle.Selenium_Gradle_Java [clean].executor": "Run",
+    "Gradle.Selenium_Gradle_Java [dependencies].executor": "Run",
+    "Gradle.Selenium_Gradle_Java [dependencyInsight].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "os/creatednewfile",
+    "git-widget-placeholder": "os/selenium__waits",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/olgasafronova/IdeaProjects/Selenium_Gradle_Java/src/main/java/safronova/Main.java",
     "show.migrate.to.gradle.popup": "false"
@@ -74,21 +120,8 @@
       <recent name="uitests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HomePageTest.findH1WebFormTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="safronova.Main" />
-      <module name="Selenium_Gradle_Java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="safronova.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.IFrameTest.getIFrameDefaultContentTest">
+    <configuration name="IFrameTest.getIFrameDefaultContentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uitests.HomePageTest&quot;" />
+            <option value="&quot;IFrameTest.getIFrameDefaultContentTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,7 +145,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomePageTest.findH1WebFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IFrameTest.getIFrameNameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +158,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uitests.HomePageTest.findH1WebFormTest&quot;" />
+            <option value="&quot;IFrameTest.getIFrameNameTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +169,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomePageTest.openHomePageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IFrameTest.getIFrameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uitests.HomePageTest.openHomePageTest&quot;" />
+            <option value="&quot;IFrameTest.getIFrameTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomePageTest.openWebFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumDriverTest.getChromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +206,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;uitests.HomePageTest.openWebFormTest&quot;" />
+            <option value="&quot;SeleniumDriverTest.getChromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumWaitTest.loadingImagesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SeleniumWaitTest.loadingImagesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HomePageTest.findH1WebFormTest" />
-        <item itemvalue="Gradle.HomePageTest.openWebFormTest" />
-        <item itemvalue="Gradle.HomePageTest.openHomePageTest" />
-        <item itemvalue="Gradle.HomePageTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.IFrameTest.getIFrameDefaultContentTest" />
+        <item itemvalue="Gradle.IFrameTest.getIFrameNameTest" />
+        <item itemvalue="Gradle.IFrameTest.getIFrameTest" />
+        <item itemvalue="Gradle.SeleniumDriverTest.getChromeTest" />
+        <item itemvalue="Gradle.SeleniumWaitTest.loadingImagesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,5 +261,8 @@
       <updated>1741773083869</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
 </project>
